@@ -43,3 +43,10 @@
     font-size: x-large;
     color: whitesmoke;
 }
+
+/*Transformaciones Footer*/
+
+.imagenFooter:hover {
+    transform: scale(2);
+    transition: 0.5s;
+}
