@@ -1,0 +1,13 @@
+.encabezadoPagina{
+    display: flex;
+    height: 190px;
+    width: 100%;
+    background-color: $bg-pagina;
+    justify-content: center;
+    
+    
+}
+
+.contenedorMainPagina{
+    background-color: $bg-pagina;
+}
