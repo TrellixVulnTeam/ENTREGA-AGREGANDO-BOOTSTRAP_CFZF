@@ -1,11 +1,13 @@
+$ancho: (
+    w-100: 100%
+); 
+
+
 .encabezadoPagina{
-    display: flex;
+    @extend %flexbox;
     height: 190px;
-    width: 100%;
+    width: map-get($map: $ancho, $key: w-100);
     background-color: $bg-pagina;
-    justify-content: center;
-    
-    
 }
 
 .contenedorMainPagina{

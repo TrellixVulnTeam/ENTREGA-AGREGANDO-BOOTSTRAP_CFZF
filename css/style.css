@@ -4,11 +4,9 @@
 }
 
 .encabezadoPagina {
-  display: flex;
   height: 190px;
   width: 100%;
   background-color: black;
-  justify-content: center;
 }
 
 .contenedorMainPagina {
@@ -16,18 +14,12 @@
 }
 
 .contenedorFooter {
-  display: flex;
-  background-color: #000;
+  background-color: black;
   width: 100%;
   height: 20vh;
-  justify-content: center;
   align-items: center;
   flex-direction: row;
-  border-top: 3px solid white;
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
-  border-left: 3px solid white;
-  box-shadow: 10px 10px 30px #000;
+  box-shadow: 10px 10px 30px black;
 }
 
 .imagenFooter {
@@ -44,6 +36,18 @@
 .imagenFooter:hover {
   transform: scale(2);
   transition: 0.5s;
+}
+
+.contenedorFooter {
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+}
+
+.encabezadoPagina, .contenedorFooter {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
